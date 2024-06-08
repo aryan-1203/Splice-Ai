@@ -1,0 +1,25 @@
+.custom-link{
+    font-size: 0.875rem;
+  position: relative;
+  display: flex;
+  padding: 0.75rem;
+  width: 100%;
+  justify-content: flex-start;
+  font-weight: 500;
+  cursor: pointer;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.custom-link:hover {
+    color: white;
+  }
+  
+  .custom-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .custom-link {
+    border-radius: 0.5rem;
+  }
